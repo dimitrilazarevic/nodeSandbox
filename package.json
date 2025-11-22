@@ -1,0 +1,17 @@
+{
+  "name": "nodesandbox",
+  "version": "1.0.0",
+  "description": "A simple sandbox for a minimal node JS server",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "author": "dimitri lazarevic",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.11"
+  }
+}

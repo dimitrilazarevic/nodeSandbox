@@ -4,7 +4,7 @@ app.use(express.json())
 const port = 3000
  
 app.get('/', (req, res) => {
-    res.send("Mes hommages.")
+    res.send("Bienvenue sur dimitri-lazarevic.fr")
 })
 
 app.listen(port, () => console.log("Connecté au port 3000 capitaine !"));
